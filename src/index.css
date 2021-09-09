@@ -1,31 +1,37 @@
+body {
+  background-image: url(https://images.unsplash.com/photo-1510922903530-28ecf3f00362?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=634&q=80);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 .title {
   text-align: center;
   margin: 10px;
-  border-bottom: dotted 10px darkgray;
+  border-bottom: dotted 10px black;
   padding: 20px;
 }
 
 .newListButton {
   display: block;
   margin: auto;
-  background-color: #91c499;
+  background-color: #3a543f;
   border: 1px solid;
   margin-top: 20px;
   margin-bottom: 20px;
  }
 
 .listDiv{
-  color: #91c499;
+  color: #3a543f;
   text-align: center;
-  border: 3px solid darkgray;
+  border: 3px solid black;
   margin: 10px auto;
   width: 80%;
   padding: 0;
+  background-color: rgba(169, 169, 169, 0.3);
 }
 
 h1 {
-  color: #4d6a52;
+  color: black;
 }
 
 .form {
@@ -41,20 +47,20 @@ h1 {
   margin: 15px;
   display: block;
   text-align: center;
-  border: solid 1px darkgray;
+  border: solid 1px black;
 }
 .singleList button {
-  background-color: #91c499;
-  border: 1px solid #91c499;
+  background-color: #3a543f;
+  border: 1px solid #3a543f;
   margin: 10px;
 }
 
 .goBack {
-  background-color: #91c499;
-  border: 1px solid #91c499;
+  background-color: #3a543f;
+  border: 1px solid #3a543f;
 }
 
 .inputButton {
-  background-color: #91c499 !important;
-  border: 1px solid #91c499 !important;
+  background-color: #3a543f !important;
+  border: 1px solid #3a543f !important;
 }
