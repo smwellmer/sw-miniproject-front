@@ -34,10 +34,10 @@ const Form = ({initialList, handleSubmit, buttonLabel, history}) => {
             value={formData.list}
             name='list'
             />
-          <input class='inputButton' type='submit' value={buttonLabel}/>
+          <input className='inputButton' type='submit' value={buttonLabel}/>
         </form>
         <Link to='/'>
-                 <button>Go Back</button>
+                 <button className="goBack">Go Back</button>
             </Link>
         </div>
     )
